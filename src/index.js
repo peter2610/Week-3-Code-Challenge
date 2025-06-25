@@ -143,13 +143,30 @@ editForm.addEventListener("submit", (e) => {
   const newContent = editContentInput.value.trim();
 
   if (newTitle && newContent) {
-    currentPost.title = newTitle;
-    currentPost.content = newContent;
-    handlePostClick(currentPost);
-    fetchPosts(); // refresh list
-    editForm.classList.add("hidden");
+    fetch(`${API_URL}/${currentPost.id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        title: newTitle,
+        content: newContent
+      })
+    })
+      .then((res) => res.json())
+      .then((updatedPost) => {
+        handlePostClick(updatedPost);   // Update the detail section
+        fetchPosts();                   // Refresh the list
+        editForm.classList.add("hidden");
+        alert("✅ Post updated!");
+      })
+      .catch((err) => {
+        console.error("PATCH Error:", err);
+        alert("❌ Failed to update post.");
+      });
   }
 });
+
 
 cancelEditBtn.addEventListener("click", () => {
   editForm.classList.add("hidden");
