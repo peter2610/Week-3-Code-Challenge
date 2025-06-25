@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Blog</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Simple Post Manager</h1>
+
+      <!-- Blog Form -->
+      <form id="createForm">
+        <input type="text" id="author" placeholder="Author Name" required />
+        <input type="text" id="title" placeholder="Post Title" required />
+        <textarea
+          id="post-content"
+          placeholder="Write your blog content..."
+          required
+        ></textarea>
+        <button type="submit" class="myButton">Create</button>
+      </form>
+
+      <!-- Post Titles -->
+      <ol id="postList"></ol>
+
+      <!-- ✅ Post Detail Section -->
+      <div
+        id="post-detail"
+        style="margin-top: 2em; border-top: 1px solid #ccc; padding-top: 1em"
+      >
+        <h2>Post Details</h2>
+        <h3 id="detail-title">Click a post title to view details</h3>
+        <p id="detail-author"></p>
+        <p id="detail-content"></p>
+      <!-- Edit Form -->
+  <form id="edit-post-form" class="hidden">
+    <h4>Edit Post (Temporary Change)</h4>
+    <label for="edit-title">Title:</label>
+    <input type="text" id="edit-title" required />
+
+    <label for="edit-content">Content:</label>
+    <textarea id="edit-content" rows="5" required></textarea>
+
+    <button type="submit">Update Post</button>
+    <button type="button" id="cancel-edit">Cancel</button>
+  </form>
+    </div>
+
+    <!-- Script -->
+    <script src="./src/index.js"></script>
+  </body>
+</html>
