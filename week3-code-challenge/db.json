@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to My Blog",
+      "content": "This is the first post on this simple blog platform. You can create, read, and update posts here.",
+      "author": "Admin",
+      "timestamp": "2025-06-22T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Why JavaScript Is Awesome",
+      "content": "JavaScript is a versatile language used for both frontend and backend development. It powers most modern websites.",
+      "author": "Peter",
+      "timestamp": "2025-06-21T14:30:00Z"
+    },
+    {
+      "id": 3,
+      "title": "How to Use JSON Server",
+      "content": "JSON Server lets you create a full fake REST API with zero coding in minutes. Just define a db.json file and start the server.",
+      "author": "DevUser",
+      "timestamp": "2025-06-20T12:45:00Z"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Learning HTTP Verbs",
+      "body": "HTTP verbs for APIs",
+      "content": "undefined"
+    },
+    {
+      "id": "d396",
+      "title": "Hello Miss Beatrice",
+      "body": "We are learning about CRUD"
+    },
+    {
+      "title": "vcxc",
+      "content": "cc",
+      "author": "peter",
+      "timestamp": "2025-06-25T00:10:01.633Z",
+      "id": "lv44O7Q"
+    },
+    {
+      "title": "vv",
+      "content": "vv",
+      "author": "peter",
+      "timestamp": "2025-06-25T00:13:11.537Z",
+      "id": "Iw8JajA"
+    },
+    {
+      "title": "vv",
+      "content": "vv",
+      "author": "peter",
+      "timestamp": "2025-06-25T00:14:14.465Z",
+      "id": "mdv5BBC"
+    },
+    {
+      "title": "    fcc",
+      "content": "cvc",
+      "author": "peter",
+      "timestamp": "2025-06-25T00:19:18.466Z",
+      "id": "jEjVP1n"
+    },
+    {
+      "title": "djksdjhncxn",
+      "content": "scnkcxjnx cjn",
+      "author": "ureghhgdfbnjcdhjxczhjnxc",
+      "timestamp": "2025-06-25T00:20:08.123Z",
+      "id": "unCQH2z"
+    },
+    {
+      "title": " v",
+      "content": "vv",
+      "author": "peter",
+      "timestamp": "2025-06-25T00:22:25.113Z",
+      "id": "kFwnPPe"
+    },
+    {
+      "title": "vvc",
+      "content": "vvc",
+      "author": "fdvv",
+      "timestamp": "2025-06-25T00:24:22.314Z",
+      "id": "UtvHEe9"
+    },
+    {
+      "title": "vcvvc",
+      "content": "vccv",
+      "author": "vcvvcvcv",
+      "timestamp": "2025-06-25T00:27:45.138Z",
+      "id": "wT9_j0B"
+    }
+  ]
+}
